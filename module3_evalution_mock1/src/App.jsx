@@ -1,6 +1,6 @@
 import PostList from "./components/PostList";
 import ThemeToggle from "./components/ThemeToggle";
-import { ThemeProvider } from "./context/ThemContext";
+import { ThemeProvider } from "./context/ThemeContext";
 
 const App = ( ) => {
   const { theme} = useTheme();
